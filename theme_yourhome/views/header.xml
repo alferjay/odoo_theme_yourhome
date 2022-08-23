@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img style="height:50px; widht:auto;" src="/theme_yourhome/static/src/img/logo.png"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link font-weight-medium" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-medium" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-medium" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-medium" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-block d-lg-none">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#">Sign In</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="d-none d-lg-block">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-medium" href="#">Sign In</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            </header>
+        </xpath>
+    </template>
+</odoo>
