@@ -16,33 +16,43 @@
 
                         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link font-weight-medium" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-medium" href="#">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-medium" href="#">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-medium" href="#">Contact</a>
-                                </li>
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link font-weight-medium"/>
+                                    </t>
+                                </t>
                             </ul>
                             <div class="d-block d-lg-none">
                                 <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#">Sign In</a>
-                                    </li>
+                                    <!-- Sign In -->
+                                    <t t-call="portal.placeholder_user_sign_in">
+                                        <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
+                                    <!-- User Dropdown -->
+                                    <t t-call="portal.user_dropdown">
+                                        <t t-set="_user_name" t-value="true"/>
+                                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                        <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                    </t>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="d-none d-lg-block">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-medium" href="#">Sign In</a>
-                                </li>
+                                <!-- Sign In -->
+                                <t t-call="portal.placeholder_user_sign_in">
+                                    <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
+                                <!-- User Dropdown -->
+                                <t t-call="portal.user_dropdown">
+                                    <t t-set="_user_name" t-value="true"/>
+                                    <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                    <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                </t>
                             </ul>
                         </div>
                     </div>

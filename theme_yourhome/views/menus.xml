@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="menu_service" model="website.menu">
+            <field name="name">Services</field>
+            <field name="url">/service</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">20</field>
+        </record>
+
+        <record id="menu_rent" model="website.menu">
+            <field name="name">Property for Rent</field>
+            <field name="url">/rent</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">15</field>
+            <field name="is_mega_menu">True</field>
+            <field name="mega_menu_content" type="html">
+                <section class="o_cc5">
+                    <div class="container">
+                        <div class="row py-5">
+                            <div class="col-lg-3">
+                                <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Apartment for Rent</a></div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Apartment Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Apartment Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Apartment Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Apartment Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Apartment Number 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Villa/House for Rent</a></div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Villa/House Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Villa/House Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Villa/House Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Villa/House Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Villa/House Number 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Rooms for Rent</a></div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Room Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Room Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Room Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Room Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Room Number 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Commercial for Rent</a></div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Commercial Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Commercial Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Commercial Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Commercial Number 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                            <span class="fa fa-caret-right mr-2"/>
+                                            <span>Commercial Number 1</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </field>
+        </record>
+    </data>
+</odoo>
