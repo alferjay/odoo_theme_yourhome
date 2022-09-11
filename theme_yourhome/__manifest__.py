@@ -11,10 +11,15 @@
         'views/homepage.xml',
         'views/services_page.xml',
         'views/menus.xml',
+        'views/snippets/property-agents.xml',
+        'views/snippets/new-properties.xml',
+        'views/snippets/rent_mega_menu.xml',
+        'views/snippets/snippets.xml',
     ],
     'assets':{
         'web.assets_frontend': [
-            'theme_yourhome/static/src/scss/styles.scss'
+            'theme_yourhome/static/src/scss/styles.scss',
+            'theme_yourhome/static/src/scss/property-agents.scss',
         ],
         'web._assets_primary_variables': [
             "theme_yourhome/static/src/scss/primary_variables.scss",

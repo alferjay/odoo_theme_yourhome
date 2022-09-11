@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="new_properties" name="New Properties">
+        <section class="new-properties o_cc5">
+            <div class="container py-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="h1 m-0">New Properties</h2>
+                    <a href="#" class="ml-auto btn btn-primary mb-2 mt-3 rounded-circle font-weight-medium">View All Properties</a>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <div class="property-img-container rounded">
+                            <img class="object-fit rounded" src="/theme_yourhome/static/src/img/property1.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block">Apartment</span>
+                            <span class="text-primary d-block h3 m-0">100,000 USD</span>
+                            <span class="text-light d-block">Location of the property</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="property-img-container rounded">
+                            <img class="object-fit rounded" src="/theme_yourhome/static/src/img/property2.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block">Apartment</span>
+                            <span class="text-primary d-block h3 m-0">100,000 USD</span>
+                            <span class="text-light d-block">Location of the property</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="property-img-container rounded">
+                            <img class="object-fit rounded" src="/theme_yourhome/static/src/img/property3.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block">Apartment</span>
+                            <span class="text-primary d-block h3 m-0">100,000 USD</span>
+                            <span class="text-light d-block">Location of the property</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="property-img-container rounded">
+                            <img class="object-fit rounded" src="/theme_yourhome/static/src/img/property4.png"/>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-muted d-block">Apartment</span>
+                            <span class="text-primary d-block h3 m-0">100,000 USD</span>
+                            <span class="text-light d-block">Location of the property</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

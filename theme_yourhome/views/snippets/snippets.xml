@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">YourHome</div>
+                <div class="o_panel_body">
+                    <t t-snippet="theme_yourhome.property_agents" t-thumbnail="/theme_yourhome/static/src/img/snippets/agents.svg">
+                        <keywords>property, agents</keywords>
+                    </t>
+                    <t t-snippet="theme_yourhome.new_properties" t-thumbnail="/theme_yourhome/static/src/img/snippets/properties.svg">
+                        <keywords>property, new property, houses</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="property_agents_options" inherit_id="website.snippet_options" name="Property Agents Options">
+        <xpath expr="//div[@data-js='Box']" position="after">
+            <div data-selector=".property-agents">
+                <we-select string="Image Border">
+                    <we-button data-select-class="border-none">None</we-button>
+                    <we-button data-select-class="border-small">Small</we-button>
+                    <we-button data-select-class="border-medium">Medium</we-button>
+                    <we-button data-select-class="border-large">Large</we-button>
+                    <we-button data-select-class="border-extra-large">Extra Large</we-button>
+                </we-select>
+                <we-select string="Company Name">
+                    <we-button data-select-class="company-visible">Visible</we-button>
+                    <we-button data-select-class="company-hidden">Hidden</we-button>
+                </we-select>
+            </div>
+        </xpath>
+
+        <xpath expr="//we-select[@data-name='mega_menu_template_opt']" position="inside">
+            <t t-set="_label">Rent Menu</t>
+            <we-button t-att-data-select-label="_label" data-select-template="theme_yourhome.rent_mega_menu" data-img="/theme_yourhome/static/src/img/snippets/rent-mega-menu.svg" t-out="_label"/>
+        </xpath>
+    </template>
+</odoo>

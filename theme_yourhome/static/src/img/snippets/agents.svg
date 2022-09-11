@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="60px" viewBox="0 0 82 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>mdpi/agents</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="snippets-thumb" transform="translate(-13.000000, -13.000000)">
+            <g id="agents" transform="translate(13.000000, 13.000000)">
+                <rect id="Rectangle" fill="#35979C" x="0" y="0" width="82" height="60"></rect>
+                <g id="Group" transform="translate(8.000000, 25.000000)" fill-rule="nonzero">
+                    <circle id="Oval" fill="#FFFFFF" cx="7.5" cy="7.5" r="7.5"></circle>
+                    <circle id="Oval-Copy" fill="#FFFFFF" cx="32.5" cy="7.5" r="7.5"></circle>
+                    <circle id="Oval-Copy-2" fill="#FFFFFF" cx="57.5" cy="7.5" r="7.5"></circle>
+                    <path d="M0.5,19.5 L14,19.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M26.5,19.5 L40,19.5" id="Line-2-Copy" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M51.5,19.5 L65,19.5" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                </g>
+                <path d="M26.5,13.5 L57,13.5" id="Line-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+.property-agents {
+    &.border-small .agent-img-container {
+        border:1px solid $secondary;
+    }
+    &.border-medium .agent-img-container {
+        border:3px solid $secondary;
+    }
+    &.border-large .agent-img-container {
+        border:5px solid $secondary;
+    }
+    &.border-extra-large .agent-img-container {
+        border:10px solid $secondary;
+    }
+
+    &.company-hidden .company-name {
+        display:none;
+    }
+
+    .agent-img-container {
+        height:150px;
+        width:150px;
+    }
+}
