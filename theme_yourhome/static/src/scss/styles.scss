@@ -11,6 +11,7 @@
     .img-container {
         height:100px;
         width:100px;
+        flex-shrink: 0;
     }
 
     .country-image {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="explore_cities" name="Explore Cities - Dynamic">
+        <section class="explore-cities">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2 class="h1">Explore Cities</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for <br/>previewing layouts and visual mockups.</p>
+                </div>
+
+                <div class="row justify-content-center" id="yh-cities-row"/>
+            </div>
+        </section>
+    </template>
+
+    <template id="explore_cities_options" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='Box']" position="before">
+            <div data-js="ExploreCitiesOptions" data-selector=".explore-cities" data-drop-in=".o_mega_menu nav">
+            </div>
+        </xpath>
+    </template>
+</odoo>

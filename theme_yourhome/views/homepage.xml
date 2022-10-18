@@ -4,7 +4,8 @@
         <xpath expr="//t[@t-call='website.layout']" position="replace">
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'homepage'"/>
-                <div id="wrap" class="oe_structure">
+                <div class="oe_structure"/>
+                <div id="wrap">
                     <section class="s_cover parallax bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
                         <span class="s_parallax_bg oe_img_bg" style="background-image: url('/theme_yourhome/static/src/img/home-bg.jpg');"/>
                         <div class="container s_allow_columns">

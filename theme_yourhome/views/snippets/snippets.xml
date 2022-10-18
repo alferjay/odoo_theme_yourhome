@@ -11,6 +11,9 @@
                     <t t-snippet="theme_yourhome.new_properties" t-thumbnail="/theme_yourhome/static/src/img/snippets/properties.svg">
                         <keywords>property, new property, houses</keywords>
                     </t>
+                    <t t-snippet="theme_yourhome.explore_cities" t-thumbnail="/theme_yourhome/static/src/img/snippets/explore-cities.svg">
+                        <keywords>explore, cities</keywords>
+                    </t>
                 </div>
             </div>
         </xpath>
